@@ -1,0 +1,15 @@
+------------------------------------------------------------
+git init: inicializar repositorio
+git status: estados de los archivos
+git commit -m "[mensaje descriptivo]": hacer un commit
+git diff: ver cambios
+git checkout [file]:devolver todos los cambios
+git add [file]: agregar modificaciones
+git log: historial de cambios en el repo.
+git reset [file]: sacar archivo de la etapa stage
+------------------------------------------------------------
+ls: listar todo
+pwd: mostrad ruta actual
+cd .. : salir del directorio actual y volver atras
+mkdir: crear nueva carpeta
+------------------------------------------------------------
