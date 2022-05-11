@@ -1,12 +1,20 @@
 ------------------------------------------------------------
 git init: inicializar repositorio
 git status: estados de los archivos
-git commit -m "[mensaje descriptivo]": hacer un commit
+
 git diff: ver cambios
 git checkout [file]:devolver todos los cambios
-git add [file]: agregar modificaciones
 git log: historial de cambios en el repo.
+
+git add [file]: agregar modificaciones - (. para todo | [carpeta]/*[extension] para agregar archivos de x extensión)
+git mv [file] [file]: cambiar nombre archivo
+git (rm,remove) [file]: eliminar archivo
 git reset [file]: sacar archivo de la etapa stage
+git reset --hard [id del commit]
+
+git commit -m "[msg]": hacer un commit
+git commit --amend -m "[msg]" reescribe el mens del commit anterior
+git reflog: lista de commits
 ------------------------------------------------------------
 ls: listar todo
 pwd: mostrad ruta actual
