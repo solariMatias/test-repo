@@ -4,7 +4,8 @@ git status: estados de los archivos
 
 git diff: ver cambios
 git checkout [file]:devolver todos los cambios
-git checkout [nombre_rama]: nueva rama/branch
+git checkout [nombre_rama]: cambiar rama/branch
+git branch [nombre_rama]: crea una nueva rama
 git branch -d [nombre_rama]: eliminar rama/branch
 git log: historial de cambios en el repo.
 
