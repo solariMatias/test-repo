@@ -4,8 +4,15 @@ git status: estados de los archivos
 
 git diff: ver cambios
 git checkout [file]:devolver todos los cambios
+git checkout [nombre_rama]: nueva rama/branch
+git branch -d [nombre_rama]: eliminar rama/branch
 git log: historial de cambios en el repo.
 
+----- PARA HACER UN MERGE------
+- De la rama actual, ir al master con "git checkout [rama_master]"
+- Ejecutar "git merge [rama_anterior]"
+- Hacer un commit en el master.
+--------------------------------
 git add [file]: agregar modificaciones - (. para todo | [carpeta]/*[extension] para agregar archivos de x extensión)
 git mv [file] [file]: cambiar nombre archivo
 git (rm,remove) [file]: eliminar archivo
@@ -15,9 +22,11 @@ git reset --hard [id del commit]
 git commit -m "[msg]": hacer un commit
 git commit --amend -m "[msg]" reescribe el mens del commit anterior
 git reflog: lista de commits
+
+
 ------------------------------------------------------------
 ls: listar todo
 pwd: mostrad ruta actual
-cd .. : salir del directorio actual y volver atras
+cd: entrar en la ruta | DOS PUNTOS(..) para salir del directorio actual y volver atras
 mkdir: crear nueva carpeta
 ------------------------------------------------------------
