@@ -14,7 +14,8 @@ git log: historial de cambios en el repo.
 - Ejecutar "git merge [rama_anterior]"
 - Hacer un commit en el master.
 --------------------------------
-git add [file]: agregar modificaciones - (. para todo | [carpeta]/*[extension] para agregar archivos de x extensión)
+git add [file]: agregar modificaciones 
+(. para todo desde carpeta para adelante | [carpeta]/*[extension] para agregar archivos de x extensión | -A para todo | -p ver cambios y decidir si agregar)
 git mv [file] [file]: cambiar nombre archivo
 git (rm,remove) [file]: eliminar archivo
 git reset [file]: sacar archivo de la etapa stage
